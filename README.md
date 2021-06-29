@@ -74,18 +74,13 @@ TweetNaCl.js has been audited by [Cure53](https://cure53.de/) in January-Februar
 Installation
 ------------
 
-<!--You can install TweetNaCl.js via a package manager:
-
-[Yarn](https://yarnpkg.com/):
-
-    $ yarn add tweetnacl
+You can install TweetNaCl.js with Sealed Boxes via a package manager:
 
 [NPM](https://www.npmjs.org/):
 
-    $ npm install tweetnacl
+    $ npm install tweetnacl-sealed-box
 
-or [download source code](https://github.com/TogaTech/tweetnacl-js-sealed-box/releases).-->
-[Download Source Code](https://github.com/TogaTech/tweetnacl-js-sealed-box/releases)
+or [download source code](https://github.com/TogaTech/tweetnacl-js-sealed-box/releases).
 
 
 Examples
