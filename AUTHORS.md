@@ -1,11 +1,11 @@
-List of TweetNaCl.js authors
-============================
+List of TweetNaCl.js and TweetNaCl.js with Sealed Boxes authors
+===============================================================
 
     Format: Name (GitHub username and URL)
 
 * Dmitry Chestnykh ([@dchest](https://github.com/dchest))
-* Devi Mandiri ([@devi](https://github.com/devi))
 * Kabir R. ([@CMEONE](https://github.com/CMEONE))
+* Devi Mandiri ([@devi](https://github.com/devi))
 * AndSDev ([@AndSDev](https://github.com/AndSDev))
 
 List of authors of third-party public domain code from which TweetNaCl.js code was derived
