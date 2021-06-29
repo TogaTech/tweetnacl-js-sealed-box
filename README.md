@@ -84,7 +84,8 @@ Installation
 
     $ npm install tweetnacl
 
-or -->[download source code](https://github.com/TogaTech/tweetnacl-js-sealed-box/releases).
+or [download source code](https://github.com/TogaTech/tweetnacl-js-sealed-box/releases).-->
+[Download Source Code](https://github.com/TogaTech/tweetnacl-js-sealed-box/releases)
 
 
 Examples
