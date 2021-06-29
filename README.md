@@ -1,11 +1,11 @@
-TweetNaCl.js
+TweetNaCl.js with Sealed Boxes
 ============
 
 Port of [TweetNaCl](http://tweetnacl.cr.yp.to) / [NaCl](http://nacl.cr.yp.to/)
-to JavaScript for modern browsers and Node.js. Public domain.
+to JavaScript for modern browsers and Node.js, includes implementation of sealed boxes. Public domain.
 
-[![Build Status](https://travis-ci.org/dchest/tweetnacl-js.svg?branch=master)
-](https://travis-ci.org/dchest/tweetnacl-js)
+[![Build Status](https://travis-ci.org/TogaTech/tweetnacl-js-sealed-box.svg?branch=master)
+](https://travis-ci.org/TogaTech/tweetnacl-js-sealed-box)
 
 Demo: <https://dchest.github.io/tweetnacl-js/>
 
@@ -74,7 +74,7 @@ TweetNaCl.js has been audited by [Cure53](https://cure53.de/) in January-Februar
 Installation
 ------------
 
-You can install TweetNaCl.js via a package manager:
+<!--You can install TweetNaCl.js via a package manager:
 
 [Yarn](https://yarnpkg.com/):
 
@@ -84,12 +84,12 @@ You can install TweetNaCl.js via a package manager:
 
     $ npm install tweetnacl
 
-or [download source code](https://github.com/dchest/tweetnacl-js/releases).
+or -->[download source code](https://github.com/TogaTech/tweetnacl-js-sealed-box/releases).
 
 
 Examples
 --------
-You can find usage examples in our [wiki](https://github.com/dchest/tweetnacl-js/wiki/Examples).
+You can find usage examples in our [wiki](https://github.com/TogaTech/tweetnacl-js-sealed-box/wiki/Examples).
 
 
 Usage
