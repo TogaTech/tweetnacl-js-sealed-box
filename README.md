@@ -7,7 +7,7 @@ to JavaScript for modern browsers and Node.js, includes implementation of sealed
 [![Build Status](https://travis-ci.org/TogaTech/tweetnacl-js-sealed-box.svg?branch=master)
 ](https://travis-ci.org/TogaTech/tweetnacl-js-sealed-box)
 
-Demo: <https://dchest.github.io/tweetnacl-js/>
+Demo: <https://togatech.github.io/tweetnacl-js-sealed-box/>
 
 Documentation
 =============
