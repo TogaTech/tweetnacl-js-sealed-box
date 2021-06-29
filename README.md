@@ -90,7 +90,7 @@ or [download source code](https://github.com/TogaTech/tweetnacl-js-sealed-box/re
 
 Examples
 --------
-You can find usage examples in our [wiki](https://github.com/TogaTech/tweetnacl-js-sealed-box/wiki/Examples).
+You can find usage examples in the TweetNaCl.js [wiki](https://github.com/dchest/tweetnacl-js/wiki/Examples).
 
 
 Usage
