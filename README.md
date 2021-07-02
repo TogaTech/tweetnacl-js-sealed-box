@@ -209,6 +209,47 @@ Length of nonce in bytes.
 Length of overhead added to secret box compared to original message.
 
 
+### Ephemeral-key encryption (sealedbox)
+
+Encrypts and decrypts the given sealed box with peer's public key and the given nonce.
+
+Returns the original message, or `null` if the sealed box is invalid.
+
+#### nacl.sealedbox(message, nonce, publicKey)
+
+Encrypts message using the public key and the nonce. The nonce does
+not need to be unique for each distinct message for this key. For compatibility
+with libsodium, see the [libsodium sealed boxes documentation](https://libsodium.gitbook.io/doc/public-key_cryptography/sealed_boxes#algorithm-details) for
+nonce generation instructions.
+
+Returns an encrypted message, which is
+`nacl.sealedbox.overheadLength` longer than the original message.
+
+#### nacl.sealedbox.open(box, nonce, secretKey)
+
+Decrypts the given sealed box using the secret key and the nonce.
+
+Returns the original message, or `null` if the sealed box is invalid.
+
+#### Constants
+
+##### nacl.sealedbox.publicKeyLength = 32
+
+Length of public key in bytes.
+
+##### nacl.sealedbox.secretKeyLength = 32
+
+Length of secret key in bytes.
+
+##### nacl.sealedbox.nonceLength = 24
+
+Length of nonce in bytes.
+
+##### nacl.sealedbox.overheadLength = 48
+
+Length of overhead added to sealed box compared to original message.
+
+
 ### Scalar multiplication
 
 Implements *x25519*.
