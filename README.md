@@ -19,6 +19,7 @@ Documentation
 * [Usage](#usage)
   * [Public-key authenticated encryption (box)](#public-key-authenticated-encryption-box)
   * [Secret-key authenticated encryption (secretbox)](#secret-key-authenticated-encryption-secretbox)
+  * [Ephemeral-key encryption (sealedbox)](#ephemeral-key-encryption-sealedbox)
   * [Scalar multiplication](#scalar-multiplication)
   * [Signatures](#signatures)
   * [Hashing](#hashing)
