@@ -4,8 +4,8 @@ TweetNaCl.js with Sealed Boxes
 Port of [TweetNaCl](http://tweetnacl.cr.yp.to) / [NaCl](http://nacl.cr.yp.to/)
 to JavaScript for modern browsers and Node.js, includes implementation of sealed boxes. Public domain.
 
-[![Build Status](https://travis-ci.org/TogaTech/tweetnacl-js-sealed-box.svg?branch=master)
-](https://travis-ci.org/TogaTech/tweetnacl-js-sealed-box)
+[![Build Status](https://travis-ci.com/TogaTech/tweetnacl-js-sealed-box.svg?branch=master)
+](https://travis-ci.com/TogaTech/tweetnacl-js-sealed-box)
 
 Demo: <https://togatech.github.io/tweetnacl-js-sealed-box/>
 
