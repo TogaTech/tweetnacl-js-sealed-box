@@ -1,6 +1,6 @@
 {
   "name": "tweetnacl-sealed-box",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Port of TweetNaCl cryptographic library to JavaScript, includes implementation of sealed boxes",
   "main": "nacl-fast.js",
   "types": "nacl.d.ts",
