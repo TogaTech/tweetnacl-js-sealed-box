@@ -56,20 +56,11 @@ TweetNaCl.js has been audited by [Cure53](https://cure53.de/) in January-Februar
 
 > The overall outcome of this audit signals a particularly positive assessment
 > for TweetNaCl-js, as the testing team was unable to find any security
-> problems in the library. It has to be noted that this is an exceptionally
-> rare result of a source code audit for any project and must be seen as a true
-> testament to a development proceeding with security at its core.
->
-> To reiterate, the TweetNaCl-js project, the source code was found to be
-> bug-free at this point.
->
-> [...]
->
-> In sum, the testing team is happy to recommend the TweetNaCl-js project as
-> likely one of the safer and more secure cryptographic tools among its
-> competition.
+> problems in the library.
 
 [Read full audit report](https://cure53.de/tweetnacl.pdf)
+
+While the audit didn't find any bugs, there has been [1 bug](https://github.com/dchest/tweetnacl-js/issues/187) discovered and fixed after the audit.
 
 
 Installation
@@ -519,7 +510,8 @@ Third-party libraries based on TweetNaCl.js
 * [nacl-stream](https://github.com/dchest/nacl-stream-js) - streaming encryption
 * [ristretto255-js](https://github.com/calibra/ristretto255-js) — implementation of the [ristretto255 group](https://ristretto.group/)
 * [tweetnacl-auth-js](https://github.com/dchest/tweetnacl-auth-js) — implementation of [`crypto_auth`](http://nacl.cr.yp.to/auth.html)
-* [tweetnacl-sealed-box](https://github.com/whs/tweetnacl-sealed-box) — implementation of [`sealed boxes`](https://download.libsodium.org/doc/public-key_cryptography/sealed_boxes.html)
+* [tweetnacl-js-sealed-box](https://github.com/TogaTech/tweetnacl-js-sealed-box) — fork that adds [`sealed boxes`](https://download.libsodium.org/doc/public-key_cryptography/sealed_boxes.html)
+* [ed2curve](https://github.com/dchest/ed2curve-js) — convert Ed25519 signing key pair to X25519 boxes key pair
 
 
 Who uses it
